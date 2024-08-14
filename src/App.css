@@ -70,9 +70,9 @@ footer {
 }
 
 /* Navbar CSS here */
-.navSection {
-  z-index: 100;
-}
+/* .navSection {
+  z-index: 80;
+} */
 .navContainer {
   margin-top: 20px;
   border-radius: 0 0 5px 5px;
