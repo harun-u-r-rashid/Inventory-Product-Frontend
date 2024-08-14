@@ -87,9 +87,9 @@ function Create() {
                         <section>
 
                                 <div className="createContainer">
-                                        <h1>✅ Create New Product</h1>
+                                        <h1 className='mb-10'>✅ Create New Product</h1>
 
-                                        <div>
+                                        <div className='mb-5'>
 
                                                 <form onSubmit={productCreate} className="max-w-md mx-auto mb-10">
                                                         <div className="relative z-0 w-full mb-5 group">
@@ -192,7 +192,7 @@ function Create() {
                                                                 type="submit"
                                                                 className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                                         >
-                                                                Create
+                                                                Create <i class="fa-solid fa-folder-plus"></i>
                                                         </button>
                                                 </form>
 

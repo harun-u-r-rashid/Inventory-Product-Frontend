@@ -6,8 +6,7 @@ function Nav() {
                 <>
                         <section className='navSection'>
 
-
-                                <nav class="navContainer fixed w-full z-50 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+                                <nav class="navContainer fixed w-full top-0 start-0 border-b border-gray-200 dark:border-gray-600">
                                         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                                                 <Link to="/">
                                                         <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -26,7 +25,7 @@ function Nav() {
                                                                 <i class="icon fa-solid fa-bars"></i>
                                                         </button>
                                                 </div>
-                                                <div class="z-50 items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                                                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                                                         <ul class="menuItem flex flex-col p-4 md:p-0 mt-4 font-medium    md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                                                 <Link to="/">
                                                                 <li>
