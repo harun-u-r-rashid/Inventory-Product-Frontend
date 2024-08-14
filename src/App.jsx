@@ -5,7 +5,7 @@ import Login from './views/auth/Login';
 import Register from './views/auth/Register';
 import Logout from './views/auth/Logout';
 import Index from './views/base/Index';
-import Details from './views/base/details';
+import Details from './views/base/Details';
 import Create from './views/base/Create';
 import './App.css'
 
